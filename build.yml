@@ -6,6 +6,7 @@ image_resource:
     repository: ruby
     tag: 2.3.0
 
+
 inputs:
 - name: flight-school
 
