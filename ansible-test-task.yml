@@ -1,0 +1,13 @@
+platform: linux
+image_resource:
+type: docker-image
+  source: {repository: ansible/ubuntu14.04-ansible}
+run:
+  path: sh
+  args:
+    - -exc
+    - |
+      echo "Hello, world!"
+      uname -a
+      ansible -v
+
