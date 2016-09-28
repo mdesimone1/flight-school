@@ -1,0 +1,9 @@
+---
+hosts: srv1
+
+tasks:
+  - shell: hostname
+    register: out
+
+  - debug: var=out
+

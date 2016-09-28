@@ -13,3 +13,5 @@ jobs:
     file: flight-school/build.yml
   - task: tests2
     file: flight-school/ansible-test-task.yml
+  - task: run-ansible-command
+    file: flight-school/run-ansible.yml

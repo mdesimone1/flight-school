@@ -1,0 +1,7 @@
+platform: linux
+image_resource:
+  type: docker-image
+  source: {repository: ansible/centos7-ansible}
+#  ssource: {repository: ansible/ubuntu14.04-ansible}
+run:
+  path: flight-school/ci/run-ansible.sh
