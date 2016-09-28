@@ -3,5 +3,8 @@ image_resource:
   type: docker-image
   source: {repository: ansible/centos7-ansible}
 #  ssource: {repository: ansible/ubuntu14.04-ansible}
+inputs:
+- name: flight-school
+
 run:
   path: flight-school/ci/run-ansible.sh
