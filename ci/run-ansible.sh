@@ -1,3 +1,7 @@
+#!/bin/bash
+
+set -e -x
+
 echo "hi: pwd `pwd`"
 cd flight-school/ci/ansible
-# ansible -i inv srv test.yml
+ansible-playbook -i inv test.yml

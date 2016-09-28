@@ -1,9 +1,9 @@
 ---
-hosts: srv1
+- hosts: srv1
 
-tasks:
-  - shell: hostname
-    register: out
+  tasks:
+    - shell: hostname
+      register: out
 
-  - debug: var=out
+    - debug: var=out
 
