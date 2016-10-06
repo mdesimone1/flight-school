@@ -8,4 +8,4 @@ image_resource:
 run:
   path: echo
   args:
-    - "my var is {{ myvar }}"
+    - "2my var is {{ myvar }}"
